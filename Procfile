@@ -1,0 +1,1 @@
+web: gunicorn mysite_2.wsgi

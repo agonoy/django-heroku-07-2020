@@ -31,11 +31,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = 'u(%#*#qiu&hcxd6%h7y2!g0u)2vw(b+$gfszgzw7n#a$5%#8y)'
 
 
 #! SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # or you can use '*' inside the square bracket
 ALLOWED_HOSTS = ['peaceful-badlands-03865.herokuapp.com',

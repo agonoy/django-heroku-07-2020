@@ -36,7 +36,8 @@ SECRET_KEY = 'u(%#*#qiu&hcxd6%h7y2!g0u)2vw(b+$gfszgzw7n#a$5%#8y)'
 #! SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# or you can use '*' inside the square bracket
+ALLOWED_HOSTS = ['https://peaceful-badlands-03865.herokuapp.com', '127.0.0.1']
 
 
 # Application definition

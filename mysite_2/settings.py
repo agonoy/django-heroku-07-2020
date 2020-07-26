@@ -37,7 +37,8 @@ SECRET_KEY = 'u(%#*#qiu&hcxd6%h7y2!g0u)2vw(b+$gfszgzw7n#a$5%#8y)'
 DEBUG = True
 
 # or you can use '*' inside the square bracket
-ALLOWED_HOSTS = ['peaceful-badlands-03865.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['peaceful-badlands-03865.herokuapp.com',
+                 '127.0.0.1',  '0.0.0.0']
 
 
 # Application definition
@@ -89,7 +90,12 @@ DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'd3kula978c881u',
+        'HOST': 'ec2-54-234-44-238.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'USER': 'pmodbdapdlonyl',
+        'PASSWORD': '49111fe89751fa9da3dbc2c2bca5841b51a9f68db16705ee1de786fc5cea1b19'
     }
 }
 
